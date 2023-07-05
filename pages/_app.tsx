@@ -4,7 +4,6 @@ import { queryClient } from "../core/queryClient";
 import Head from "next/head";
 import "../styles/globals.css";
 import { createContext, useMemo, useState } from "react";
-import firebase from "../firebase/firebase";
 
 export const AuthContext = createContext({
   isRegistered: false,
